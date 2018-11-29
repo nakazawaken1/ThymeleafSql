@@ -1,0 +1,1 @@
+SELECT * FROM users WHERE 1 = 1/*[# th:if="${name}"]*/ AND name like /*[(|:name|)]*/'山田%'/*[/]*//*[# th:if="${age}"]*/ AND age >= /*[(|:age|)]*/20 /*[/]*/

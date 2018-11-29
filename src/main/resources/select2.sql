@@ -1,0 +1,1 @@
+SELECT * FROM users WHERE name like /*[(|:name|)]*/'山田%' AND age >= /*[(|:age|)]*/20
